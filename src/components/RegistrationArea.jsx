@@ -38,8 +38,8 @@ function RegistrationArea() {
                         </div>
                     </div>
 
-                    <div className="col-lg-5">
-                        <img style={{width: "100%", height: "350px", objectFit: "cover"}} src="https://bugun.uz/wp-content/uploads/article/image/2021/08/05/dc4ded3dc8f3eda3f02203bfe00b7499f19008134675.jpg" alt="" />
+                    <div className="col-lg-5 mt-4">
+                        <img style={{width: "100%", height: "350px", objectFit: "cover"}} src="/img/hokimiyat2.png" alt="" />
                     </div>
                 </div>
             </div>

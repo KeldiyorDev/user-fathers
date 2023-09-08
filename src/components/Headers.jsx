@@ -27,11 +27,12 @@ function Headers() {
 
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="container">
-                        <a className="navbar-brand logo_h" href="index.html"
+                        <Link className="navbar-brand logo_h" to="/" style={{display: "flex", gap: "8px", alignItems: "center"}}
                         >
-                            <img src="img/logo.png" alt=""
-                            />
-                        </a>
+                            <img src="img/logo3.png" alt="" style={{ height: "50px" }}
+                            /> 
+                            <h3 className='mt-2'>EduReyting</h3>
+                        </Link>
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -52,9 +53,9 @@ function Headers() {
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to={"/"}>Asosiy</NavLink>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <NavLink className="nav-link" to={"/loyiha-haqida"}>Loyiha haqida</NavLink>
-                                </li>
+                                </li> */}
                                 <li className="nav-item">
                                     <NavLink to={"/yangiliklar"} className="nav-link">Yangiliklar</NavLink>
                                 </li>

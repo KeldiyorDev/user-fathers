@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axiosInstance from '../utils/config'
+import styled from 'styled-components'
 
 function PopularCourses() {
     const [school, setSchool] = useState([])
@@ -21,7 +22,7 @@ function PopularCourses() {
             })
     }, [])
     return (
-        <div className="popular_courses">
+        <Wrapper className="popular_courses">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-5">
@@ -55,7 +56,7 @@ function PopularCourses() {
 
                     </div>
 
-                    <div className="col-lg-6" style={{ display: "flex", gap: "16px", flexDirection: "column" }}>
+                    <div className="col-lg-6 tarbiyachi" style={{ display: "flex", gap: "16px", flexDirection: "column" }}>
                         <h2 className="">Top tarbiyachilar:</h2>
 
                         {
@@ -75,8 +76,20 @@ function PopularCourses() {
                     </div>
                 </div>
             </div>
-        </div>
+        </Wrapper>
     )
 }
 
 export default PopularCourses
+
+const Wrapper = styled.div`
+    @media(max-width: 768px) {
+        .tarbiyachi{
+            margin-top: 32px;
+        }
+
+        .img-fluid {
+            height: 70px !important;
+        }
+    }
+`

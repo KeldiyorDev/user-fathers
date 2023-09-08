@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import axiosInstance from '../utils/config'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     const userName = useRef()
@@ -40,18 +41,18 @@ function Footer() {
                         <div class="contact_info">
                             <div class="info_item">
                                 <i style={{ color: "#fff" }} class="ti-home"></i>
-                                <h6 style={{ color: "#fff" }}>California, United States</h6>
-                                <p>Santa monica bullevard</p>
+                                <h6 style={{ color: "#fff" }}>G‘ijduvon shahar hokimiyati</h6>
+                                <p>Buxoro viloyati, G‘ijduvon shahri</p>
                             </div>
                             <div class="info_item">
                                 <i style={{ color: "#fff" }} class="ti-headphone"></i>
-                                <h6 style={{ color: "#fff" }}><a href="/" style={{ color: "#fff" }}>00 (440) 9865 562</a></h6>
-                                <p>Mon to Fri 9am to 6 pm</p>
+                                <h6 style={{ color: "#fff" }}><a href="tel:+998655721333" target='_blank' style={{ color: "#fff" }} rel="noreferrer">+998 65 572-13-33</a></h6>
+                                <p>Dushanbadan jumagacha, <br /> 08:00 - 16:00</p>
                             </div>
                             <div class="info_item">
                                 <i style={{ color: "#fff" }} class="ti-email"></i>
-                                <h6><a href="https://mail.google.com/mail/u/galaktikasystem@gmail.com" target='_blank' rel="noreferrer" style={{ color: "#fff" }}>galaktikasystem@gmail.com</a></h6>
-                                <p>Send us your query anytime!</p>
+                                <h6><a href="mailto:gijduvon_th@umail.uz" target='_blank' rel="noreferrer" style={{ color: "#fff" }}>gijduvon_th@umail.uz</a></h6>
+                                <p>So'rovingizni yuboring!</p>
                             </div>
                         </div>
                     </div>
@@ -104,18 +105,18 @@ function Footer() {
                         <div class="contact_info">
                             <div class="info_item">
                                 <i style={{ color: "#fff" }} class="ti-home"></i>
-                                <h6 style={{ color: "#fff" }}>California, United States</h6>
-                                <p>Guliston ko'chasi</p>
+                                <h6 style={{ color: "#fff" }}>G‘ijduvon shahar, Texno maktab markaziy binosi</h6>
+                                <p>G‘ijduvon shahar Abduxoliq G‘ijduvoniy ko‘chasi, 36-uy</p>
                             </div>
                             <div class="info_item">
                                 <i style={{ color: "#fff" }} class="ti-headphone"></i>
-                                <h6 style={{ color: "#fff" }}><a href="/" style={{ color: "#fff" }}>00 (440) 9865 562</a></h6>
-                                <p>Mon to Fri 9am to 6 pm</p>
+                                <h6 style={{ color: "#fff" }}><a href="/" style={{ color: "#fff" }}>+998 94 412-43-01</a></h6>
+                                <p>Dushanbadan jumagacha, <br /> 08:00 - 16:00</p>
                             </div>
                             <div class="info_item">
                                 <i style={{ color: "#fff" }} class="ti-email"></i>
-                                <h6><a href="https://mail.google.com/mail/u/galaktikasystem@gmail.com" target='_blank' rel="noreferrer" style={{ color: "#fff" }}>galaktikasystem@gmail.com</a></h6>
-                                <p>Send us your query anytime!</p>
+                                <h6><a href="mailto:texnomaktabbuxoro@gmail.com" target='_blank' rel="noreferrer" style={{ color: "#fff" }}>texnomaktabbuxoro@gmail.com</a></h6>
+                                <p>So'rovingizni yuboring!</p>
                             </div>
                         </div>
                     </div>
@@ -123,13 +124,13 @@ function Footer() {
 
                 <div class="row footer-bottom d-flex justify-content-between">
                     <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    ©️ "Texno maktab" MChJ. Barcha huquqlar himoyalangan.
                     </p>
                     <div class="col-lg-4 col-sm-12 footer-social">
-                        <a href="/"><i class="ti-facebook"></i></a>
-                        <a href="/"><i class="ti-twitter"></i></a>
-                        <a href="/"><i class="ti-dribbble"></i></a>
-                        <a href="/"><i class="ti-linkedin"></i></a>
+                        <Link to="https://www.facebook.com/gijduvonuz"><i class="ti-facebook"></i></Link>
+                        <Link to="https://twitter.com/gijduvon"><i class="ti-twitter"></i></Link>
+                        <Link to="https://www.instagram.com/gijduvontumanhokimlik/?utm_medium=copy_link"><i class="ti-instagram"></i></Link>
+                        <Link to="https://www.youtube.com/channel/UCgteO4fszYdszvfOVmabFOQ"><i class="ti-youtube"></i></Link>
                     </div>
                 </div>
 
