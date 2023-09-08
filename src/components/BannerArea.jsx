@@ -1,6 +1,7 @@
 import React from 'react'
 import { BiLogIn } from 'react-icons/bi'
 import { RxDashboard } from 'react-icons/rx'
+import { Link } from 'react-router-dom'
 
 function BannerArea() {
     return (
@@ -17,13 +18,13 @@ function BannerArea() {
                                     Ota-onalar reytingining onlayn tizimi
                                 </h2>
                                 <div>
-                                    <a href="/" className="primary-btn2 mb-3 mb-sm-0">
+                                    <Link to="/reyting" className="primary-btn2 mb-3 mb-sm-0">
                                         <BiLogIn fontSize={24} style={{marginRight: "4px"}}/>
-                                        Ota-onalar reytingi</a>
-                                    <a href="/" className="primary-btn ml-sm-3 ml-0">
+                                        Ota-onalar reytingi</Link>
+                                    <Link to="/maktab-reyting" className="primary-btn ml-sm-3 ml-0">
                                         <RxDashboard fontSize={24} style={{marginRight: "4px"}}/>
                                         Maktablar reytingi
-                                        </a>
+                                        </Link>
                                 </div>
                             </div>
                         </div>

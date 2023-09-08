@@ -1,6 +1,6 @@
 import React from 'react'
 import { BiLogIn } from 'react-icons/bi';
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Headers() {
     return (
@@ -66,10 +66,10 @@ function Headers() {
                                 </li>
 
                                 <li className="nav-item">
-                                    <a className='primary-btn2' href="about-us.html">
+                                    <Link className='primary-btn2' to="https://admin.edureyting.uz" target='_blank'>
                                         <BiLogIn fontSize={24} style={{ marginRight: "4px" }} />
                                         Kirish
-                                    </a>
+                                    </Link>
                                 </li>
 
                             </ul>
