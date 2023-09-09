@@ -25,7 +25,7 @@ function TestimonialArea() {
               <div className="col-lg-8">
                 <div className="testi_text">
                   <h4 className='mb-0'>Diyorbek Tolibov</h4>
-                  <p className='mb-2' style={{fontSize: "14px"}}>Texno-maktab rahbari</p>
+                  <p className='mb-2' style={{fontSize: "14px"}}>-maktab rahbari</p>
                   <p>
                   Platforma tumanimiz maktablarining ta`lim va jamoat ishlarida rivojlanishda katta yordam beradi deb hisoblaymiz. Bunday hamkorliklar uzoq davom etadi degan umiddamiz.
                   </p>

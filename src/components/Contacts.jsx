@@ -99,7 +99,7 @@ function Contacts() {
                         </form>
                     </div>
                     <div class="col-lg-3">
-                        <h4 className='mb-3' style={{ fontWeight: "500" }}>Texno-maktabga bog'lanish:</h4>
+                        <h4 className='mb-3' style={{ fontWeight: "500" }}>-maktabga bog'lanish:</h4>
                         <div class="contact_info">
                             <div class="info_item">
                                 <i class="ti-home"></i>
