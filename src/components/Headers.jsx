@@ -67,7 +67,7 @@ function Headers() {
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link className='primary-btn2' to="https://admin.edureyting.uz" target='_blank'>
+                                    <Link className='primary-btn2' to="https://admin.edureyting.uz">
                                         <BiLogIn fontSize={24} style={{ marginRight: "4px" }} />
                                         Kirish
                                     </Link>

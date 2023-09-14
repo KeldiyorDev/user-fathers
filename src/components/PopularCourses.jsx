@@ -7,7 +7,7 @@ function PopularCourses() {
     const [student, setStudent] = useState([])
 
     useEffect(() => {
-        axiosInstance.get(`/Posts/GetSchoolRating`)
+        axiosInstance.get(`/Posts/GetSchoolRating3`)
             .then((res) => {
                 console.log(res.data);
                 setSchool(res?.data)

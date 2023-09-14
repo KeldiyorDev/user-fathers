@@ -58,7 +58,6 @@ function News() {
                                         </h4>
                                         <p className='text-justify' style={{color: "black"}}>
                                             {item?.message?.length > 200 ? item?.message?.substr(0, 200) + "..." : item?.message}
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit necessitatibus error odio ducimus autem repellendus nam consequatur officia. Natus, doloribus!
                                         </p>
 
                                         {/* <div className='mt-3' style={{ display: "flex", alignItems: "center", justifyContent: "flex-end" }}>
