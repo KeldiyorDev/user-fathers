@@ -63,7 +63,7 @@ function Headers() {
                                     <NavLink to={"/reyting"} className="nav-link">Reyting</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to={"/maktab-reyting"} className="nav-link">Maktablar reytinggi</NavLink>
+                                    <NavLink to={"/maktab-reyting"} className="nav-link">Maktablar reytingi</NavLink>
                                 </li>
 
                                 <li className="nav-item">

@@ -39,7 +39,7 @@ function RegistrationArea() {
                     </div>
 
                     <div className="col-lg-5 mt-4">
-                        <img style={{width: "100%", height: "350px", objectFit: "cover"}} src="/img/hokimiyat2.png" alt="" />
+                        <img style={{width: "100%", height: "350px", objectFit: "cover"}} src="/img/2.png" alt="" />
                     </div>
                 </div>
             </div>

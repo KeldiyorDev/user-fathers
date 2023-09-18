@@ -43,7 +43,7 @@ function Footer() {
                             <div class="contact_info">
                                 <div class="info_item">
                                     <i style={{ color: "#fff" }} class="ti-home"></i>
-                                    <h6 style={{ color: "#fff" }}>G‘ijduvon shahar hokimiyati</h6>
+                                    <h6 style={{ color: "#fff" }}>G‘ijduvon tuman hokimiyati</h6>
                                     <p>Buxoro viloyati, G‘ijduvon shahri</p>
                                 </div>
                                 <div class="info_item">
@@ -112,7 +112,7 @@ function Footer() {
                                 </div>
                                 <div class="info_item">
                                     <i style={{ color: "#fff" }} class="ti-headphone"></i>
-                                    <h6 style={{ color: "#fff" }}><a href="/" style={{ color: "#fff" }}>+998 94 412-43-01</a></h6>
+                                    <h6 style={{ color: "#fff" }}><a href="tel:+998944124301" style={{ color: "#fff" }}>+998 94 412-43-01</a></h6>
                                     <p>Dushanbadan jumagacha, <br /> 08:00 - 16:00</p>
                                 </div>
                                 <div class="info_item">
