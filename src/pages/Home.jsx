@@ -10,6 +10,7 @@ import Chart from '../components/Chart'
 
 import React, { useCallback, useState } from "react";
 import { PieChart, Pie, Sector } from "recharts";
+import TestRejim from '../components/TestRejim'
 
 const data = [
     { name: "Group A", value: 400 },
@@ -102,6 +103,7 @@ function Home() {
     );
     return (
         <>
+            <TestRejim />
             <Headers />
             <BannerArea />
             <FeatureArea />
