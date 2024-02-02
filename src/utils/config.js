@@ -2,8 +2,8 @@ import axios from "axios";
 
 const defaultOptions = {
     // baseURL: "http://localhost:9090",
-    baseURL: "https://api.edureyting.uz/api",
-    // baseURL: "https://95.47.127.171:5010/api",
+     baseURL: "https://api.edureyting.uz/api",
+    //baseURL: "https://95.47.127.171:5010/api",
     headers: {
         'Content-Type': 'application/json',
     },
